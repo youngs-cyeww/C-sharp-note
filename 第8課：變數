@@ -1,1 +1,5 @@
-摺疊代碼
+摺疊代碼, #region , #endregion  範例:
+
+#region ( )//這裡是顯示摺疊後的名稱,通常用來顯示程式功能
+
+#endregion
