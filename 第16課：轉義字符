@@ -1,0 +1,37 @@
+
+\ //轉移字符,可讓原本無法顯示在字串中的符號顯示例如' " \ 
+範例:
+string str = "\"哈哈哈\"";
+Consle.WriteLine(str);
+執行結果:
+"哈哈哈"
+
+\n //換行
+範例:
+string str = "12345\n12345"
+Consle.WriteLine(str);
+執行結果:
+12345
+12345
+
+\t //空4格(tab)
+範例:
+string str = "12345\t12345"
+Consle.WriteLine(str);
+執行結果:
+12345    12345
+
+\0 //空字符
+範例:
+string str = "12345\012345"
+Consle.WriteLine(str);
+執行結果:
+1234512345
+
+\a //警報聲
+範例:
+string str = "\a"
+Consle.WriteLine(str);
+執行結果:
+(電腦的警報聲)
+
