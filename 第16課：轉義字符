@@ -35,3 +35,9 @@ Consle.WriteLine(str);
 執行結果:
 (電腦的警報聲)
 
+@ //取消字符
+範例:
+string str = @"12345/12345"
+Consle.WriteLine(str);
+執行結果:
+12345/12345 //在沒有加@的情形下會報錯
