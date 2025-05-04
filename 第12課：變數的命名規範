@@ -3,3 +3,8 @@
 範例:
 string myName = "我的名字";
 string yourName = "你的名字";
+
+帕斯卡命名法 //所有單字首字母大寫,用來命名函數
+範例:
+string MyName = "我的名字";
+string YourMotherName = "你媽的名字";
