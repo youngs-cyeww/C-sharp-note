@@ -1,0 +1,29 @@
+
+try
+{
+  //希望進行異常捕獲的程式碼
+  //如果try中的程式碼錯誤不會讓程式卡死
+}
+catch( )
+{
+  //如果報錯了會執行catch中的程式碼
+  //這裡可以改為 catch(Exception 變數) 來將try中的錯誤訊息讀取至變數中
+{
+}
+finally
+{
+  //最後執行的程式碼,不管有沒有錯都會執行finally中的程式
+} //程式功能: 用來防止程式因報錯而卡死
+範例:
+try
+{
+  string str = Console.ReadLine();
+  int i = int.parse(str);
+  Console.WriteLine(i);
+}
+catch
+{
+  Console.WriteLine("請輸入合法數字");
+}
+執行結果:
+(如果輸入不合法的數字,輸出 請輸入合法數字 )
