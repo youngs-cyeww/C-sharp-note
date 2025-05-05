@@ -1,0 +1,28 @@
+隱式轉換 //不同變量類型的轉換,大範圍裝小範圍
+範例:
+long l = 1;
+int i = 1;
+sbyte sb = 1;
+byte b = 1;
+l = i //✔️: 因為long比int存處範圍大
+sb = i //❌: 因為long比sbyte存處範圍小
+b = i //❌: 因為byte是無符號不能和有符號的通用
+i = b //✔️: 因為int比byte存處範圍大
+
+
+變量類型 變量名 = (變量類型)變量 //顯示轉換,不同變量類型的轉換,不受大小限制
+範例:
+sbyte sb = 1;
+short s = 1;
+int i = 1;
+sb = (sbyte)s; 
+sb = (sbyte)i;
+
+變量類型 變量名 = Convert.to目標類型(變量) //變量必須和規,不然會報錯 
+範例:
+int a = Convert.toInt32("123");
+float fl = Convert.ToSingle("12.3")
+Console.WriteLine(a);
+Console.WriteLine(fl);
+執行結果:
+12312.3
