@@ -1,0 +1,16 @@
+變量類型 變量名 = (變量類型)變量 //顯示轉換,不同變量類型的轉換,不受大小限制
+範例:
+sbyte sb = 1;
+short s = 1;
+int i = 1;
+sb = (sbyte)s; 
+sb = (sbyte)i;
+
+變量類型 變量名 = Convert.to目標類型(變量) //變量必須和規,不然會報錯 
+範例:
+int a = Convert.toInt32("123");
+float fl = Convert.ToSingle("12.3")
+Console.WriteLine(a);
+Console.WriteLine(fl);
+執行結果:
+12312.3
