@@ -1,0 +1,16 @@
+
+字串拼接
++ //在字串中+不會相加字串內部的數, 而是加入字串
+範例:
+string num = "123";
+num = num + "456";
+Console.WriteLine(num);
+執行結果:
+123456
+範例:
+string num = "3";
+num = num + 4+5+6;
+Console.WriteLine(num);
+執行結果:
+18
+
