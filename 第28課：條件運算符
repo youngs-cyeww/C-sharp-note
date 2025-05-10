@@ -1,0 +1,21 @@
+
+>
+<
+>=
+<=
+==
+!= //運算符, 順序後於加減乘除執行
+範例:
+int a = 5;
+int b = 10;
+bool result =a>b;
+Console.WriteLine(result);
+bool result =a<b;
+Console.WriteLine(result);
+result = a < 10;
+Console.WriteLine(result);
+輸出結果:
+false
+true
+true
+
