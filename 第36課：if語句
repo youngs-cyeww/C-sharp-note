@@ -1,0 +1,32 @@
+if()
+{
+
+}
+else if ()
+{
+
+}
+else ()
+{
+
+} //條件判斷,()中的是條件,滿足才會執行自己大括號程式,如果都沒優達成則執行else裡的程式
+範例:
+int a = 3;
+if(a>10)
+{
+Console.WriteLine("a");
+}
+else if(a>6)
+{
+Console.WriteLine("b");
+}
+else if(a>3)
+{
+Console.WriteLine("c");
+}
+else
+{
+Console.WriteLine("d");
+}
+執行結果:
+c
