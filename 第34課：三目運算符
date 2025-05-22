@@ -1,0 +1,7 @@
+
+ ? :  //用來判斷條件, bool ? bool返回為真 : bool返回為假
+範例:
+string str = ture ? "y" : "n" ;
+Console.WriteLine(str);
+輸出結果:
+y
