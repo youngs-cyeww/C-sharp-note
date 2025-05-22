@@ -1,0 +1,18 @@
+do
+{
+  程式碼
+
+  continue; //這個程式會讓while被執行,他在它下面的程式都不會被執行
+}
+while(條件);
+範例:
+int a = 0
+do
+{
+  a+=a;
+  Consle.WriteLine(a);
+}
+while (a<2)
+執行結果:
+12
+
